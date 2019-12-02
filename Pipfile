@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2.2.2"
+djangorestframework = "==3.10"
+djangorestframework-simplejwt = "*"
+pillow = "*"
+python-dotenv = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.7"
